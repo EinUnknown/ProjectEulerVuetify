@@ -65,7 +65,6 @@ export default {
         );
         if (fibonacci[fibonacci.length - 1] % this.divider === 0) {
           divided_fibonacci.push(fibonacci[fibonacci.length - 1]);
-          console.log(divided_fibonacci[divided_fibonacci.length - 1]);
         }
       }
 
